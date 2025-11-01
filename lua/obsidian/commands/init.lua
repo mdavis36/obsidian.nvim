@@ -309,6 +309,8 @@ M.register("links", { nargs = 0, note_action = true })
 
 M.register("follow_link", { nargs = "?", note_action = true })
 
+M.register("preview_link", { nargs = 0, note_action = true })
+
 M.register("toggle_checkbox", { nargs = 0, range = true, note_action = true })
 
 M.register("rename", { nargs = "?", note_action = true })
